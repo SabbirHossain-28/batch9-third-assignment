@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hockey Sports</title>
+    <title>HockeyHub</title>
+    <link rel="shortcut icon" href="./Images/fav.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,20 +57,20 @@
                       <li><a class="text-nav-gray text-base font-normal">Contact</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost text-main-black text-2xl lg:text-4xl font-extrabold hover:bg-transparent">Hockey<span class="text-btn-bg">’</span>s</a>
+                  <a class="btn btn-ghost text-main-black text-2xl lg:text-4xl font-extrabold hover:bg-transparent hover:text-btn-bg">Hockey<span class="text-btn-bg hover:text-black">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
                       <li><a class="text-btn-bg text-base font-bold hover:bg-transparent">Home</a></li>
-                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent">About</a></li>
-                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent">Pages</a></li>
-                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent">Blog</a></li>
-                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent">Contact</a></li>
+                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent hover:text-btn-bg hover:font-bold">About</a></li>
+                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent hover:text-btn-bg hover:font-bold">Pages</a></li>
+                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent hover:text-btn-bg hover:font-bold">Blog</a></li>
+                      <li><a class="text-nav-gray text-base font-normal hover:bg-transparent hover:text-btn-bg hover:font-bold">Contact</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
                     <img class="mr-6 hidden lg:block" src="./Images/search.png" alt="">
-                  <a class="btn bg-btn-bg text-white text-sm lg:text-xl  font-bold">Get Ticket</a>
+                  <a class="btn bg-btn-bg text-white text-sm lg:text-xl  font-bold hover:bg-transparent hover:text-btn-bg hover:border-btn-bg hover:mt-2">Get Ticket</a>
                 </div>
               </div>
 
@@ -82,57 +83,53 @@
 
         <!-- BANNER SECTION START -->
         <section class="banner-section w-11/12 mx-auto mt-14 mb-24 font-rope">
-            <div class="carousel w-full">
 
                 <!-- CAROUSEL ITEM1 START -->
-                <div id="slide1" class="carousel-item relative w-full">
-                  <img src="./Images/1.png" class="w-full lg:h-[80vh] rounded-2xl" />
-                  <div class="absolute flex flex-col items-center lg:flex-row lg:justify-between  gap-10  transform -translate-y-1/3  lg:-translate-y-1/2 left-5 right-5 top-full  lg:top-[80%]">
-                    <div>
-                        <a href="#slide3" class="btn btn-circle mr-4 bg-black text-white border-none">❮</a> 
-                        <a href="#slide2" class="btn btn-circle  bg-black text-white border-none">❯</a>
-                    </div>
-                    <div class="bg-black p-2 lg:p-8  lg:max-w-xl rounded-2xl">
-                        <h3 class="text-white xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
-                        <p class="text-[#ffffff99] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                    </div>
-                  </div>
-                </div> 
-                <!-- CAROUSEL ITEM1 END -->
-
-                <!-- CAROUSEL ITEM2 START -->
-                <div id="slide2" class="carousel-item relative w-full ">
-                    <img src="./Images/c2.jpg" class="w-full lg:h-[80vh] rounded-2xl" />
-                    <div class="absolute flex flex-col items-center lg:flex-row lg:justify-between  gap-10  transform -translate-y-1/3  lg:-translate-y-1/2 left-5 right-5 top-full  lg:top-[80%]">
-                      <div>
-                          <a href="#slide1" class="btn btn-circle mr-4 bg-black text-white border-none">❮</a> 
-                          <a href="#slide3" class="btn btn-circle  bg-black text-white border-none">❯</a>
-                      </div>
-                      <div class="bg-black p-2 lg:p-8  lg:max-w-xl rounded-2xl">
-                          <h3 class="text-white xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
-                          <p class="text-[#ffffff99] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                      </div>
-                    </div>
-                </div> 
-                <!-- CAROUSEL ITEM2 END -->
-
-                <!-- CAROUSEL ITEM3 START -->
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="./Images/c3.jpg" class="w-full lg:h-[80vh] rounded-2xl" />
-                    <div class="absolute flex flex-col items-center lg:flex-row lg:justify-between  gap-10  transform -translate-y-1/3  lg:-translate-y-1/2 left-5 right-5 top-full  lg:top-[80%]">
-                      <div>
-                          <a href="#slide2" class="btn btn-circle mr-4 bg-black text-white border-none">❮</a> 
-                          <a href="#slide1" class="btn btn-circle  bg-black text-white border-none">❯</a>
-                      </div>
-                      <div class="bg-black p-2 lg:p-8  lg:max-w-xl rounded-2xl">
-                          <h3 class="text-white xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
-                          <p class="text-[#ffffff99] text-base font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                      </div>
-                    </div>
+                <div class="carousel w-full">
+                        
+                        <div id="slide1" class="carousel-item relative overflow-visible w-full ">
+                            <img src="./Images/1.png" class="w-full lg:h-[80vh] rounded-2xl" />
+                            <div class="absolute flex flex-col lg:flex-row lg:left-5 lg:right-5 justify-between items-center lg:items-end gap-6 top-[75%] lg:top-[70%]">
+                              <div class="  ">
+                                  <a href="#slide3" class="btn btn-circle">❮</a> 
+                                  <a href="#slide2" class="btn btn-circle">❯</a>
+                                </div>
+                                <div class="bg-black p-2 lg:p-8  w-full lg:max-w-xl rounded-2xl ">
+                                  <h3 class="text-white xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
+                                  <p class="text-[#ffffff99] text-base font-medium">At HockeyHub, we honor and celebrate our Hero Players – the embodiment of the heart and soul of the game.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div id="slide2" class="carousel-item relative overflow-visible w-full ">
+                            <img src="./Images/c2.jpg" class="w-full lg:h-[80vh] rounded-2xl" />
+                            <div class="absolute flex flex-col lg:flex-row lg:left-5 lg:right-5 justify-between items-center lg:items-end gap-6 top-[75%] lg:top-[70%]">
+                              <div class="  ">
+                                  <a href="#slide1" class="btn btn-circle">❮</a> 
+                                  <a href="#slide3" class="btn btn-circle">❯</a>
+                                </div>
+                                <div class="bg-black p-2 lg:p-8  w-full lg:max-w-xl rounded-2xl ">
+                                  <h3 class="text-white xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
+                                  <p class="text-[#ffffff99] text-base font-medium">At HockeyHub, we honor and celebrate our Hero Players – the embodiment of the heart and soul of the game.</p>
+                              </div>
+                            </div>
+                        </div>
+                        <div id="slide3" class="carousel-item relative overflow-visible w-full ">
+                            <img src="./Images/c3.jpg" class="w-full lg:h-[80vh] rounded-2xl" />
+                            <div class="absolute flex flex-col lg:flex-row lg:left-5 lg:right-5 justify-between items-center lg:items-end gap-6 top-[75%]  lg:top-[70%]">
+                              <div class="  ">
+                                  <a href="#slide2" class="btn btn-circle">❮</a> 
+                                  <a href="#slide1" class="btn btn-circle">❯</a>
+                                </div>
+                                <div class="bg-black p-2 lg:p-8  w-full lg:max-w-xl rounded-2xl ">
+                                  <h3 class="text-white xl lg:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h3>
+                                  <p class="text-[#ffffff99] text-base font-medium">At HockeyHub, we honor and celebrate our Hero Players – the embodiment of the heart and soul of the game.</p>
+                              </div>
+                            </div>
+                        </div>
                 </div>
                 <!-- CAROUSEL ITEM3 END --> 
 
-            </div>
+           
         </section>
         <!-- BANNER SECTION END -->
 
@@ -140,7 +137,7 @@
         <section class="club w-11/12 mx-auto font-rope">
             <div class="club-container text-center space-y-6 mb-12 border-dotted border-t-2 border-b-2 py-8">
                 <h2 class="text-main-black text-xl lg:text-4xl font-extrabold">Professional Hockeys Club</h2>
-                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">HockeyHub's Professional Hockey Club is not just a team; it's a legacy, a commitment to the highest standards of competition, and a celebration of the extraordinary journey that is professional hockey.</p>
             </div>
             <div class="club-card-cointainer flex flex-col lg:flex-row lg:justify-around items-center ">
                 <!-- CARD1 -->
@@ -148,7 +145,7 @@
                     <div class="radial-progress text-primary text-[#FF4240]" style="--value:87;" role="progressbar"><p class="text-main-black">87%</p></div>
                     <div class="card-body text-center items-center">
                       <h2 class="card-title mb-4 text-main-black text-xl font-semibold">Prayer Facility</h2>
-                      <p class="text-main-gray text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-main-gray text-base font-normal">HockeyHub's facilities are more than spaces;they are dynamic environments for the development of every player.</p>
                     </div>
                 </div>
                 <!-- CARD1 -->
@@ -158,7 +155,7 @@
                     <div class="radial-progress text-primary text-[#49D293]" style="--value:95;" role="progressbar"><p class="text-main-black">95%</p></div>
                     <div class="card-body text-center items-center">
                       <h2 class="card-title mb-4 text-main-black text-xl font-semibold">Experienced Coach</h2>
-                      <p class="text-main-gray text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-main-gray text-base font-normal">our experienced coaches are by your side,ready to elevate your game, and celebrate your triumphs.</p>
                     </div>
                 </div>
                 <!-- CARD2 -->
@@ -168,7 +165,7 @@
                     <div class="radial-progress text-primary text-[#FFB546]" style="--value:90;" role="progressbar"><p class="text-main-black">90%</p></div>
                     <div class="card-body text-center items-center">
                       <h2 class="card-title mb-4 text-main-black text-xl font-semibold">Senior Player</h2>
-                      <p class="text-main-gray text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-main-gray text-base font-normal">Embrace leadership roles contribute your wealth of experience to mentor the next generation</p>
                     </div>
                 </div>
                 <!-- CARD3 -->
@@ -178,7 +175,7 @@
                     <div class="radial-progress text-primary text-[#4C8DF1]" style="--value:80;" role="progressbar"><p class="text-main-black">80%</p></div>
                     <div class="card-body text-center items-center">
                       <h2 class="card-title mb-4 text-main-black text-xl font-semibold">Training Ground</h2>
-                      <p class="text-main-gray text-base font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                      <p class="text-main-gray text-base font-normal">The HockeyHub Training Ground is more than a facility; it's a commitment to the pursuit of excellence.</p>
                     </div>
                 </div>
                 <!-- CARD4 -->
@@ -189,8 +186,8 @@
         <!-- PROGRAM SECTION START -->
             <section class="program w-11/12 mx-auto font-rope mt-24">
                 <div class="product-container text-center mb-12 border-dotted border-t-2 border-b-2 py-8">
-                    <h2 class="text-main-black text-xl lg:text-4xl font-extrabold mb-6">Our New Products</h2>
-                    <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    <h2 class="text-main-black text-xl lg:text-4xl font-extrabold mb-6">Program Sections</h2>
+                    <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Discover the perfect program for your hockey journey at HockeyHub – where passion meets purpose, and every player finds their path to success </p>
                 </div>
 
                 <div class="program-sec-gellary grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -200,8 +197,9 @@
                         <div class=" text-left ">
                           <div class="px-10 pt-10 lg:pt-24 pb-10">
                             <h1 class="mb-5 text-white text-3xl font-extrabold">Junior Program</h1>
-                            <p class="mb-5 text-white text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in. </p>
-                            <button class="btn bg-btn-bg text-white text-xl font-bold border-none">Register Now!</button>
+                            <p class="mb-5 text-white text-base font-medium">
+                                "Welcome to HockeyHub Junior Program – where young dreams take flight on the ice! Our junior program is more than just a training ground; it's a vibrant community where aspiring players learn, grow, and fall in love with the game.</p>
+                            <button class="btn bg-btn-bg text-white text-xl font-bold border-btn-bg hover:bg-transparent hover:text-btn-bg hover:border-btn-bg hover:mt-2">Register Now!</button>
                           </div>
                         </div>
                       </div>
@@ -212,8 +210,8 @@
                             <div class=" text-left ">
                               <div class="px-10 pt-10 lg:pt-24 pb-10">
                                 <h1 class="mb-5  text-white text-3xl font-extrabold">Teenager Program</h1>
-                                <p class="mb-5 text-white text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                                <button class="btn bg-btn-bg text-white text-xl font-bold border-none">Register Now!</button>
+                                <p class="mb-5 text-white text-base font-medium">Our program for teenagers is designed to ignite passion, enhance skills. With a focus on both individual growth and team dynamics, our expert coaches guide teens through a transformative hockey experience.</p>
+                                <button class="btn bg-btn-bg text-white text-xl font-bold border-btn-bg hover:bg-transparent hover:text-btn-bg hover:border-btn-bg hover:mt-2">Register Now!</button>
                               </div>
                             </div>
                           </div>
@@ -225,8 +223,8 @@
                                 <div class=" text-left">
                                         <div class="content-box px-10 pt-10 lg:pt- pb-10  max-w-3xl ">
                                             <h1 class="mb-5 text-white text-3xl font-extrabold">Professional Program</h1>
-                                            <p class="mb-5 text-white text-base font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                                            <button class="btn bg-btn-bg text-white text-xl font-bold border-none">Get Started</button>
+                                            <p class="mb-5 text-white text-base font-medium">"Welcome to HockeyHub Professional Program – the pinnacle of hockey excellence! Tailored for elite athletes and aspiring professionals, our program offers a cutting-edge platform for skill refinement, strategic training, and career development in the world of hockey.</p>
+                                            <button class="btn bg-btn-bg text-white text-xl font-bold border-btn-bg hover:bg-transparent hover:text-btn-bg hover:border-btn-bg hover:mt-2 hover:border-2">Register Now!</button>
                                         </div>
                                   </div>
                             </div>
@@ -239,7 +237,7 @@
         <section class="product w-11/12 mx-auto font-rope mt-24 mb-24">
             <div class="product-container text-center mb-12 border-dotted border-t-2 border-b-2 py-8">
                 <h2 class="text-main-black text-xl lg:text-4xl font-extrabold mb-6">Our New Products</h2>
-                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Stay ahead of the game. Explore the future of hockey with HockeyHub's new product collection – where innovation meets passion, and every product is a gateway to a new dimension of excellence.</p>
             </div>
             <div class="product-item grid grid-cols-1 lg:grid-cols-2 gap-6">
 
@@ -263,11 +261,11 @@
                                 <p class="text-main-gray text-base font-medium">200</p>
                             </div>
                         </div>
-                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Flags Football</h2>
-                      <p class="text-main-gray text-base font-medium mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">Winter Jacket</h2>
+                      <p class="text-main-gray text-base font-medium mb-4">In this winterexplore our new collection</p>
                       <div class="flex flex-col lg:flex-row gap-5">
                         <div class="">
-                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $199.00</h4>
                         </div>
                         <div class=" flex">
                             <img class="lg:flex-1" src="./Images/trolly.png" alt="">
@@ -298,11 +296,11 @@
                                 <p class="text-main-gray text-base font-medium">200</p>
                             </div>
                         </div>
-                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Flags Football</h2>
-                      <p class="text-main-gray text-base font-medium mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Exclusive Football</h2>
+                      <p class="text-main-gray text-base font-medium mb-4">Special Edition for 'World Cup 2024"</p>
                       <div class="flex flex-col lg:flex-row gap-5">
                         <div class="">
-                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $82.00</h4>
                         </div>
                         <div class=" flex">
                             <img class="lg:flex-1" src="./Images/trolly.png" alt="">
@@ -333,8 +331,8 @@
                                 <p class="text-main-gray text-base font-medium">200</p>
                             </div>
                         </div>
-                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Flags Football</h2>
-                      <p class="text-main-gray text-base font-medium mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">Jackson DJ Cap</h2>
+                      <p class="text-main-gray text-base font-medium mb-4">Export and Authentic Collection for Cap</p>
                       <div class="flex flex-col  lg:flex-row gap-5">
                         <div class="">
                             <h4 class="text-btn-bg text-lg font-extrabold">Price - $22.00</h4>
@@ -368,11 +366,11 @@
                                 <p class="text-main-gray text-base font-medium">200</p>
                             </div>
                         </div>
-                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Flags Football</h2>
-                      <p class="text-main-gray text-base font-medium mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">Exclusive and Export Quality Collection</h2>
+                      <p class="text-main-gray text-base font-medium mb-4">Limited Collection for This World Cup Event</p>
                       <div class="flex flex-col  lg:flex-row gap-5">
                         <div class="">
-                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $100.00</h4>
                         </div>
                         <div class=" flex">
                             <img class="lg:flex-1" src="./Images/trolly.png" alt="">
@@ -403,11 +401,11 @@
                                 <p class="text-main-gray text-base font-medium">200</p>
                             </div>
                         </div>
-                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Flags Football</h2>
-                      <p class="text-main-gray text-base font-medium mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">Best and Primium Durability Helmet</h2>
+                      <p class="text-main-gray text-base font-medium mb-4">Limited Collection Available---Stock Out soon</p>
                       <div class="flex flex-col  lg:flex-row gap-5">
                         <div class="">
-                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $522.00</h4>
                         </div>
                         <div class=" flex">
                             <img class="lg:flex-1" src="./Images/trolly.png" alt="">
@@ -438,11 +436,11 @@
                                 <p class="text-main-gray text-base font-medium">200</p>
                             </div>
                         </div>
-                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Flags Football</h2>
-                      <p class="text-main-gray text-base font-medium mb-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                      <h4 class="text-main-black text-xl font-extrabold mt-3 mb-3">World Cup Football</h2>
+                      <p class="text-main-gray text-base font-medium mb-4">Gear up your football sport and order now</p>
                       <div class="flex flex-col  lg:flex-row gap-5">
                         <div class="">
-                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $22.00</h4>
+                            <h4 class="text-btn-bg text-lg font-extrabold">Price - $52.00</h4>
                         </div>
                         <div class=" flex">
                             <img class="lg:flex-1" src="./Images/trolly.png" alt="">
@@ -460,7 +458,7 @@
         <section class="faq-section w-11/12 mx-auto font-rope mt-24 mb-24">
             <div class="product-container text-center mb-12 border-dotted border-t-2 border-b-2 py-8">
                 <h2 class="text-main-black text-xl lg:text-4xl font-extrabold mb-6">Clients Question</h2>
-                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">"Your questions fuel the heartbeat of HockeyHub. Ask away, and let's embark on this exciting journey together. Our team is here to score with answers, ensuring your experience on and off the ice is nothing short of exceptional. Your curiosity is our game-changer!" </p>
             </div>
 
             <div class="faq-content flex gap-10 flex-col lg:flex-row p-8 border-2 rounded-2xl border-[#0d0d1a1a]">
@@ -475,7 +473,7 @@
                             Our Equipment
                         </div>
                         <div class="collapse-content"> 
-                          <p class="text-main-gray text-base font-normal">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna.</p>
+                          <p class="text-main-gray text-base font-normal">1.Hockey Stick 2.Protective Gear 3.Skating Equipment 4.Hockey Jersey 5.Hockey Socks 6.Jock Shorts 7.Goalie Equipment 8.Training Aids</p>
                         </div>
                         <hr>
                     </div>
@@ -488,7 +486,7 @@
                             Hockey Training
                         </div>
                         <div class="collapse-content"> 
-                          <p class="text-main-gray text-base font-normal">hello</p>
+                          <p class="text-main-gray text-base font-normal">Hockey training is an essential aspect of honing the skills and athleticism required for success on the ice. Whether you're a seasoned player or just starting, structured training plays a pivotal role in improving agility, strength, and overall performance in the game.</p>
                         </div>
                         <hr>
                     </div>
@@ -501,7 +499,7 @@
                             Private Lessons
                         </div>
                         <div class="collapse-content"> 
-                          <p class="text-main-gray text-base font-normal">hello</p>
+                          <p class="text-main-gray text-base font-normal">private hockey lessons offer a personalized pathway to mastery, accelerating a player's development and providing them with the tools needed to excel on the ice. Whether for beginners looking to establish a strong foundation or advanced players aiming to refine their skills, the individualized attention of private lessons serves as a catalyst for growth and excellence in the dynamic and competitive world of hockey.</p>
                         </div>
                         <hr>
                     </div>
@@ -514,7 +512,7 @@
                             Ski Touring
                         </div>
                         <div class="collapse-content"> 
-                          <p class="text-main-gray text-base font-normal">hello</p>
+                          <p class="text-main-gray text-base font-normal">Ski touring is not only a physical adventure but also a journey into self-discovery and appreciation for the winter wilderness. Whether seeking solitude, chasing untouched powder, or simply exploring the uncharted, ski touring offers a unique and rewarding winter escape for those who crave the harmony of snow-covered solitude and the thrill of carving their own path through the mountains.</p>
                         </div>
                         <hr>
                     </div>
@@ -527,7 +525,7 @@
                             Booking
                         </div>
                         <div class="collapse-content"> 
-                          <p class="text-main-gray text-base font-normal">hello</p>
+                          <p class="text-main-gray text-base font-normal">At HockeyHub, we're committed to making your hockey journey memorable and hassle-free. Our intuitive booking process ensures that you can focus on what you love – the game. Lace up your skates, hit the ice, and let the hockey adventures begin!</p>
                         </div>
                         <hr>
                     </div>
@@ -540,7 +538,7 @@
                             Pricings
                         </div>
                         <div class="collapse-content"> 
-                          <p class="text-main-gray text-base font-normal">hello</p>
+                          <p class="text-main-gray text-base font-normal">At HockeyHub, we believe that the joy of hockey should be accessible to everyone. Our pricing structure reflects this commitment, ensuring that every individual, regardless of age or skill level, can participate in the sport they love. Join us on the ice, where the spirit of hockey meets exceptional value.</p>
                         </div>
                         <hr>
                     </div>
@@ -554,11 +552,11 @@
          <section class="contact-form w-11/12 mx-auto font-rope  mb-12">
             <div class="product-container text-center mb-12 border-dotted border-t-2 border-b-2 py-8">
                 <h2 class="text-main-black text-xl lg:text-4xl font-extrabold mb-6">Get In Touch</h2>
-                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="text-main-gray text-base font-medium max-w-3xl mx-auto">We value your feedback and engagement as we strive to create an exciting and immersive hockey community. Feel free to reach out, and let's connect over our shared love for the game! </p>
             </div>
 
             <!-- CONTACT SECTION START -->
-            <div class="contact-form-content grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div class="contact-form-content grid grid-cols-1 lg:grid-cols-3 lg:gap-6">
                 <div class="contact space-y-6 p-12 border-2 rounded-2xl col-span-1">
                     <div class="item1 p-10 rounded-2xl bg-[#bced6d1a]">
                         <img class="mb-6" src="./Images/Group 1171275317.png" alt="">
@@ -603,7 +601,7 @@
                         <label class="text-main-black text-xl font-bold" for="">Message</label>
                         <textarea class="textarea bg-[#0d0d1808] w-full mt-4" placeholder="Write your messages" rows="11"></textarea>
                     </div>
-                    <button class="btn w-full bg-btn-bg text-white text-xl font-bold hover:bg-orange-300 hover:text-btn-bg ">Send Message</button>
+                    <button class="btn w-full bg-btn-bg text-white text-xl font-bold hover:bg-blue-200 hover:text-btn-bg ">Send Message</button>
                 </div>
                 <!-- FORM SECTION END -->
             </div>
@@ -630,7 +628,7 @@
         <div class="footer-container w-11/12 mx-auto flex flex-col lg:flex-row gap-10 ">
             <div class="w-full text-center lg:text-left">
                 <h3 class="text-white text-3xl font-extrabold mb-4">Get In Touch</h3>
-                <p class="max-w-md text-[#ffffff99] text-base font-medium mb-6">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="max-w-md text-[#ffffff99] text-base font-medium mb-6">Thank you for considering HockeyHub as your go-to source for all things hockey-related. We look forward to hearing from you and sharing the passion for this incredible sport! </p>
                 <div class="flex gap-4 mb-4 justify-center lg:justify-start">
                     <img src="./Images/sms.png" alt="">
                     <p class="text-[#ffffff99] text-base font-medium">hockeys@support.com</p>
